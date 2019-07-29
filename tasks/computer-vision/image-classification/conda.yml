@@ -1,0 +1,11 @@
+name: fashion_mnist_NN
+channels:
+  - defaults
+  - pytorch
+dependencies:
+  - python=3.6
+  - pytorch
+  - torchvision
+  - pip:
+    - mlflow
+    - tensorboardX
